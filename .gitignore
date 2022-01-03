@@ -130,3 +130,9 @@ kernel/configs/android-*.cfg
 #Ignoring Android.bp link file
 #
 Android.bp
+
+#Ignore ALL files in any directory named build
+build/
+
+#Ignore ALL files in any directory named out
+out/
